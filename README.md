@@ -1,2 +1,0 @@
-# pgvector
-pgvector test one

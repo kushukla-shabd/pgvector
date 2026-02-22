@@ -10,9 +10,8 @@ datasource db {
 }
 
 generator client {
-  provider = "prisma-client"
+  provider = "prisma-client-js"
   previewFeatures = ["postgresqlExtensions"]
-  output   = "../app/generated/prisma"
 }
 
 model Document {
